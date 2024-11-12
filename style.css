@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+tr {
+  text-align: center;
+}
+
+.product-name {
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  color: rgb(39, 39, 140);
+}
+.product-name:hover {
+  text-decoration: underline;
+  color: #000;
+}
